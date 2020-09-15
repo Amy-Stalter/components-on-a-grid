@@ -10,6 +10,7 @@ html {
 
 img {
   width: 100%;
+
 }
 
 header {
@@ -27,9 +28,7 @@ a {
 
 body {
   display: grid;
-  grid-template-rows: 1fr 1fr;
   gap: 1rem;
   background-color: #f2f1ed;
   margin: 0;
-  grid-template-columns: 1fr 1fr;
 }
