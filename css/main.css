@@ -20,11 +20,16 @@ header {
 
 .logo {
   max-width: 14rem;
+  position: absolute;
+  z-index: 1;
+  padding: 1rem;
 }
 
 li {
   list-style-type: none;
   color: #ffff;
+  position: absolute;
+  z-index: -1;
 }
 
 main {
@@ -40,9 +45,13 @@ body {
   margin: 0;
 }
 
-.banner {
-  grid-row : 1;
+.pano {
   display: grid;
+  grid-column: 1/ -1;
+  grid-row: 1;
+  padding: 1rem;
+  position:relative;
+  z-index: -1;
 }
 
 h2 {
