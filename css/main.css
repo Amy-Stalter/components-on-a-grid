@@ -22,8 +22,15 @@ header {
   max-width: 14rem;
 }
 
-a {
+li {
   list-style-type: none;
+  color: #ffff;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem;
 }
 
 body {
@@ -31,4 +38,36 @@ body {
   gap: 1rem;
   background-color: #f2f1ed;
   margin: 0;
+}
+
+.banner {
+  grid-row : 1;
+  display: grid;
+}
+
+h2 {
+  font-family: "Patua One", sans-serif;
+  color: #30658d;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+figure:nth-child(1) {
+  margin-right: .5rem;
+}
+
+figure:nth-child(2) {
+  margin-left: .5rem;
+}
+
+a {
+  font-size: 2rem;
+  font-family: "Patua One", sans-serif;
 }
